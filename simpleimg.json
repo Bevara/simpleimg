@@ -22,5 +22,6 @@
       "pbm" : "img",
       "xbm" : "img"
     },
-    "licence_required":false
+    "licence_required":false,
+    "using": ["solver_minimal_1", "solver_1"]
 }
