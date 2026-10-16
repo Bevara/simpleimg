@@ -22,6 +22,10 @@
       "pbm" : "img",
       "xbm" : "img"
     },
-    "licence_required":false,
-    "using": ["solver_minimal_1", "solver_1"]
+    "using": ["solver_minimal_1", "solver_1"],
+    "patents": {
+        "status": "royalty-free",
+        "note": "PCX, TGA, SGI, PNM, XBM",
+        "checked": "2026-10-16"
+    }
 }
