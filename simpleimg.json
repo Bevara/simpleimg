@@ -1,5 +1,6 @@
 {
     "name": "simpleimg",
+    "version": "1.0.1",
     "description": "Simple bitmap decoder (PCX, TGA, SGI, PNM, XBM)",
     "filters":["simpleimgdec"],
     "help": "This filter decodes PCX, Truevision TGA, SGI/RGB, PNM (PBM/PGM/PPM) and X11 XBM images.",
