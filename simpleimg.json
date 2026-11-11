@@ -2,28 +2,37 @@
     "name": "simpleimg",
     "version": "1.0.2",
     "description": "Simple bitmap decoder (PCX, TGA, SGI, PNM, XBM)",
-    "filters":["simpleimgdec"],
+    "filters": [
+        "simpleimgdec"
+    ],
     "help": "This filter decodes PCX, Truevision TGA, SGI/RGB, PNM (PBM/PGM/PPM) and X11 XBM images.",
     "support": [
         "image"
     ],
-    "sources":"https://bevara.ddns.net/sources/simpleimg.accessor",
-    "filter_source":{
-        "simpleimgdec" : "dec_simpleimg.c"
+    "sources": "https://bevara.ddns.net/sources/simpleimg.accessor",
+    "filter_source": {
+        "simpleimgdec": "dec_simpleimg.c"
     },
-    "extension":{
-      "pcx" : "img",
-      "tga" : "img",
-      "sgi" : "img",
-      "rgb" : "img",
-      "bw" : "img",
-      "pnm" : "img",
-      "ppm" : "img",
-      "pgm" : "img",
-      "pbm" : "img",
-      "xbm" : "img"
+    "extension": {
+        "pcx": "img",
+        "tga": "img",
+        "sgi": "img",
+        "rgb": "img",
+        "bw": "img",
+        "pnm": "img",
+        "ppm": "img",
+        "pgm": "img",
+        "pbm": "img",
+        "xbm": "img"
     },
-    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1", "mm_solver_1.0.2", "mm_solver_1.0.3", "mm_solver_1.0.4"],
+    "using": [
+        "mm_solver_minimal_1.0.1",
+        "mm_solver_1.0.1",
+        "mm_solver_1.0.2",
+        "mm_solver_1.0.3",
+        "mm_solver_1.0.4",
+        "mm_solver_1.0.5"
+    ],
     "patents": {
         "status": "royalty-free",
         "note": "PCX, TGA, SGI, PNM, XBM",
